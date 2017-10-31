@@ -8,7 +8,11 @@
     <name>code-aggregator</name>
     <url>http://maven.apache.org</url>
     <!-- 该模块作用是将不同的Project聚合在一起，并没有继承的作用 -->
-    <!--<modules>-->
-        <!--<module>../apigw-agent</module>-->
-    <!--</modules>-->
+    <modules>
+        <module>../code-parent</module>
+        <module>../hyperpump</module>
+        <module>../learning</module>
+        <module>../plugins</module>
+        <module>../commons</module>
+    </modules>
 </project>
