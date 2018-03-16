@@ -13,6 +13,7 @@
     <!-- 该模块作用是将不同的Project聚合在一起，并没有继承的作用 -->
     <modules>
         <module>../code-parent</module>
+        <module>../stargate</module>
         <module>../hyperpump</module>
         <module>../learning</module>
         <module>../plugins</module>
