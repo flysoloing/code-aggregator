@@ -13,14 +13,15 @@
     <!-- 该模块作用是将不同的Project聚合在一起，并没有继承的作用 -->
     <modules>
         <module>../code-parent</module>
-        <module>../stargate</module>
+        <module>../commons</module>
         <module>../hyperpump</module>
         <module>../learning</module>
         <module>../plugins</module>
-        <module>../commons</module>
+        <module>../sparrowmq</module>
+        <module>../stargate</module>
     </modules>
 
-    <!-- The Basics -->
+    <!-- Basics Settings -->
     <!--<groupId>...</groupId>-->
     <!--<artifactId>...</artifactId>-->
     <!--<packaging>...</packaging>-->
